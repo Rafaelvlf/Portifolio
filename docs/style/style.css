@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  h1,h3,p{
+    color: #E0E0E0	;
+  }
+  html, body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: #121212;
+    color: #333;
+    padding: 20px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+  }
+
+  main{
+    flex: 1;
+    z-index: 0;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 110%;
+    position: fixed;
+    margin: 0px, 20px;
+    z-index: 2;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  .projetos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+  }
+  
+  .projeto {
+    background: #333;
+    padding: 16px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .projeto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .projeto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #333;
+  }
+
+  figure {
+    display: flex;
+    margin: 20px 0;
+  }
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.redes_sociais {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+.redes_sociais img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  
+.redes_sociais img:hover {
+    transform: scale(1.1);
+  }
+
+  .botao {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #00BFFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #0056b3;
+  }
+
+ .row{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+    align-items: center;
+    gap: 70%;
+  }
+
+header img{
+  margin-left:20px;
+}
+
+header a:hover{
+  color: #0056b3
+}
+
+main section{
+  margin-top: 80px;
+}
+.linha{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+    align-items: center;
+  }
+
+  .perfil-container {
+  display: flex;
+  align-items: center;
+  gap: 10%; 
+}
+
+.foto-perfil {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nome {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.destaque {
+  color: #00bfff;
+}
+
+.descricao {
+  margin-top: 10px;
+  color: white;
+  max-width: 600px;
+}
+
+#sobre, #projetos{
+    scroll-margin-top: 120px;
+}
